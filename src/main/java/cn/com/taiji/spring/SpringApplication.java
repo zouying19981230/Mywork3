@@ -7,7 +7,7 @@ import org.springframework.util.CollectionUtils;
 
 public class SpringApplication {
     public static void main(String[] args) {
-//        ApplicationContext context = new AnnotationConfigApplicationContext("com.csm");
+//        ApplicationContext context = new AnnotationConfigApplicationContext("cn.com.taiji.spring");
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext();
         context.register(AppConfig.class);
         context.refresh();
