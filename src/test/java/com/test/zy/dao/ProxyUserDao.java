@@ -1,6 +1,6 @@
 package com.test.zy.dao;
 
-import com.test.zy.UserDao;
+import com.test.zy.dao.UserDao;
 
 import java.util.Date;
 

@@ -5,7 +5,7 @@
 
     <bean id="userDao" class="com.test.zy.UserDao"/>
 
-    <bean id="userService" class="com.test.zy.UserService">
+    <bean id="userService" class="com.test.zy.service.UserService">
         <property name="userDao" ref="userDao"/>
     </bean>
 
