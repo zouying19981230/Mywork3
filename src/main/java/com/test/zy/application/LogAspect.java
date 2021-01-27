@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 @Aspect
 public class LogAspect {
 
-    //    @Pointcut("execution(* com.csm.dao.*.*(..))")
+    //    @Pointcut("execution(* com.test.zy.dao.*.*(..))")
     @Pointcut("@annotation(com.test.zy.annotation.Transaction)")
     public void pointCut(){
     }
